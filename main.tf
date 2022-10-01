@@ -8,7 +8,7 @@ terraform {
   }
 }
 
-# REGION AND CREDENTIALS
+# REGION
 provider "aws" {
   region = var.aws_region
 }
